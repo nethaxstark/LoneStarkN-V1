@@ -70,7 +70,7 @@ This CTF has been:
 
 ## 📬 Contact & Contribution  
 Found issues or want to expand this project?  
-- Email: [Your Professional Email]  
-- LinkedIn: [Your Profile Link]  
+- Email: [ajayck8081@gmail.com && ajayyt14867@gmail.com]  
+- LinkedIn: [https://www.linkedin.com/in/nethaxstark/]  
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)  
