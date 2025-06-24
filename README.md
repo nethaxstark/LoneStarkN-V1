@@ -10,31 +10,11 @@ Originally created for hands-on penetration testing practice and later submitted
 
 ---
 ```mermaid
-%%{init: {'theme': 'dark', 'themeVariables': {
-  'primaryColor': '#0a192f',
-  'primaryBorderColor': '#64ffda',
-  'lineColor': '#64ffda',
-  'nodeTextColor': '#e6f1ff',
-  'fontFamily': 'Courier New'
-}}}%%
 flowchart TD
-    ROOT[[LoneStarkN-V1 CTF\n(June 2023)]]:::root
-
-    ROOT --> OSINT
-    ROOT --> BRUTE
-    ROOT --> STEGO
-    ROOT --> PRIVESC
-
-    OSINT[OSINT Challenge\n• Find hidden credentials\n• Analyze metadata]:::osint
-    BRUTE[Brute Force\n• Crack passwords\n• Hydra/John attacks]:::brute
-    STEGO[Steganography\n• Extract hidden data\n• Use steghide/binwalk]:::stego
-    PRIVESC[Privilege Escalation\n• Linux/Windows\n• Sudo misconfigs]:::privesc
-
-    classDef root fill:#1a1a2e,stroke:#64ffda,stroke-width:3px,font-size:18px
-    classDef osint fill:#3a0ca3,stroke:#4cc9f0
-    classDef brute fill:#f8961e,stroke:#f3722c
-    classDef stego fill:#7209b7,stroke:#b5179e
-    classDef privesc fill:#d90429,stroke:#ef233c
+    A[LoneStarkN-V1 CTF] --> B[OSINT]
+    A --> C[Brute Force]
+    A --> D[Steganography]
+    A --> E[Privilege Escalation]
 ```
 ---
 
